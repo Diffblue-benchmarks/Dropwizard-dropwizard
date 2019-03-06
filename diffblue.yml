@@ -1,4 +1,4 @@
-buildcmd: cd dropwizard-util; mvn -e -X -Dmaven.test.skip=true compile
+buildCmd: cd dropwizard-util; mvn -e -X -Dmaven.test.skip=true compile
 testCmd: cd dropwizard-util; mvn test
 cbmcArguments:
   java-generate-no-comments: true
